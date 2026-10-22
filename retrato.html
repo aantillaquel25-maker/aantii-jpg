@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101010">
+  <meta name="description" content="Galería de fotografía de retrato de aantii.jpg.">
+  <title>Retrato — aantii.jpg</title>
+  <link rel="shortcut icon" href="./img/aantii-jpg__1_-removebg-preview.png" />
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/galerias.css">
+</head>
+<body class="gallery-page">
+  <header class="gallery-header">
+    <a class="gallery-brand" href="index.html" aria-label="aantii.jpg, volver al inicio">aantii<span>.jpg</span></a>
+    <a class="gallery-back" href="index.html">← Volver al inicio</a>
+  </header>
+
+  <main class="gallery-main">
+    <p class="gallery-kicker">Archivo fotográfico / 03</p>
+    <h1 class="gallery-title">Personas, sin pose<span>.</span></h1>
+    <p class="gallery-description">Personas reales, gestos espontáneos y retratos con personalidad, sin perder la naturalidad del momento.</p>
+
+    <div class="gallery-toolbar">
+      <span>Retrato · Luz natural · Carácter</span>
+      <span>Fotografía por aantii.jpg</span>
+    </div>
+
+    <section class="gallery-grid" aria-label="Fotografías de retrato">
+      <figure class="gallery-item-wrap">
+        <button class="gallery-item" type="button" aria-label="Ampliar fotografía 01">
+          <img src="img/retrato/foto-01.jpg" alt="Retrato — fotografía 01" loading="lazy">
+        </button>
+        <figcaption class="gallery-item-caption">
+          <span>Retrato / 01</span><span>↗</span>
+        </figcaption>
+      </figure>
+      <figure class="gallery-item-wrap">
+        <button class="gallery-item" type="button" aria-label="Ampliar fotografía 02">
+          <img src="img/retrato/foto-02.jpg" alt="Retrato — fotografía 02" loading="lazy">
+        </button>
+        <figcaption class="gallery-item-caption">
+          <span>Retrato / 02</span><span>↗</span>
+        </figcaption>
+      </figure>
+      <figure class="gallery-item-wrap">
+        <button class="gallery-item" type="button" aria-label="Ampliar fotografía 03">
+          <img src="img/retrato/foto-03.jpg" alt="Retrato — fotografía 03" loading="lazy">
+        </button>
+        <figcaption class="gallery-item-caption">
+          <span>Retrato / 03</span><span>↗</span>
+        </figcaption>
+      </figure>
+      <figure class="gallery-item-wrap">
+        <button class="gallery-item" type="button" aria-label="Ampliar fotografía 04">
+          <img src="img/retrato/foto-04.jpg" alt="Retrato — fotografía 04" loading="lazy">
+        </button>
+        <figcaption class="gallery-item-caption">
+          <span>Retrato / 04</span><span>↗</span>
+        </figcaption>
+      </figure>
+      <figure class="gallery-item-wrap">
+        <button class="gallery-item" type="button" aria-label="Ampliar fotografía 05">
+          <img src="img/retrato/foto-05.jpg" alt="Retrato — fotografía 05" loading="lazy">
+        </button>
+        <figcaption class="gallery-item-caption">
+          <span>Retrato / 05</span><span>↗</span>
+        </figcaption>
+      </figure>
+      <figure class="gallery-item-wrap">
+        <button class="gallery-item" type="button" aria-label="Ampliar fotografía 06">
+          <img src="img/retrato/foto-06.jpg" alt="Retrato — fotografía 06" loading="lazy">
+        </button>
+        <figcaption class="gallery-item-caption">
+          <span>Retrato / 06</span><span>↗</span>
+        </figcaption>
+      </figure>
+      <figure class="gallery-item-wrap">
+        <button class="gallery-item" type="button" aria-label="Ampliar fotografía 07">
+          <img src="img/retrato/foto-07.jpg" alt="Retrato — fotografía 07" loading="lazy">
+        </button>
+        <figcaption class="gallery-item-caption">
+          <span>Retrato / 07</span><span>↗</span>
+        </figcaption>
+      </figure>
+      <figure class="gallery-item-wrap">
+        <button class="gallery-item" type="button" aria-label="Ampliar fotografía 08">
+          <img src="img/retrato/foto-08.jpg" alt="Retrato — fotografía 08" loading="lazy">
+        </button>
+        <figcaption class="gallery-item-caption">
+          <span>Retrato / 08</span><span>↗</span>
+        </figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <footer class="gallery-footer">
+    <span>© <span id="year">2026</span> aantii.jpg</span>
+    <a href="index.html">Volver al inicio ↗</a>
+  </footer>
+
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Fotografía ampliada" aria-hidden="true">
+    <button class="lightbox-close" type="button" aria-label="Cerrar fotografía">×</button>
+    <button class="lightbox-prev" type="button" aria-label="Fotografía anterior">‹</button>
+    <img class="lightbox-image" src="" alt="">
+    <button class="lightbox-next" type="button" aria-label="Fotografía siguiente">›</button>
+    <div class="lightbox-counter">01 / 08</div>
+  </div>
+
+  <script src="js/galerias.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
