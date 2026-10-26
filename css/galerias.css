@@ -1,7 +1,7 @@
 /* Galerías de aantii.jpg — estética oscura y editorial */
 :root {
   --gallery-bg: #101010;
-  --gallery-text: #f3f1ec;
+  --gallery-text: #ffffff;
   --gallery-muted: #92918c;
   --gallery-accent: #d5ff58;
   --gallery-line: rgba(243, 241, 236, .16);
@@ -38,7 +38,7 @@
 .gallery-brand span { color: var(--gallery-accent); }
 
 .gallery-back {
-  color: var(--gallery-text);
+  color:#d5ff58;
   text-decoration: none;
   font-size: .78rem;
   border: 1px solid var(--gallery-line);
@@ -94,7 +94,7 @@
   margin: 3.5rem 0 1.2rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--gallery-line);
-  color: var(--gallery-muted);
+  color:  var(--gallery-muted);
   font-size: .7rem;
   letter-spacing: .08em;
   text-transform: uppercase;
